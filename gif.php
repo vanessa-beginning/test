@@ -13,7 +13,7 @@
 
 
 	// Your image link
-	$image = imagecreatefrompng('https://s3-ap-southeast-2.amazonaws.com/beginning.boutique/Countdown+test/images/countdown.png');
+	$image = imagecreatefrompng('https://s3-ap-southeast-2.amazonaws.com/beginning.boutique/EA-Sign-Up.gif');
 
 	$delay = 100;// milliseconds
 
@@ -31,7 +31,7 @@
 		
 		if($future_date < $now){
 			// Open the first source image and add the text.
-			$image = imagecreatefrompng('https://s3-ap-southeast-2.amazonaws.com/beginning.boutique/Countdown+test/images/countdown.png');
+			$image = imagecreatefrompng('https://s3-ap-southeast-2.amazonaws.com/beginning.boutique/EA-Sign-Up.gif');
 			;
 			$text = $interval->format('00:00:00:00');
 			imagettftext ($image , $font['size'] , $font['angle'] , $font['x-offset'] , $font['y-offset'] , $font['color'] , $font['file'], $text );
@@ -44,7 +44,7 @@
 			break;
 		} else {
 			// Open the first source image and add the text.
-			$image = imagecreatefrompng('https://s3-ap-southeast-2.amazonaws.com/beginning.boutique/Countdown+test/images/countdown.png');
+			$image = imagecreatefrompng('https://s3-ap-southeast-2.amazonaws.com/beginning.boutique/EA-Sign-Up.gif');
 			;
 			$text = $interval->format('0%a %H %I %S');
 			imagettftext ($image , $font['size'] , $font['angle'] , $font['x-offset'] , $font['y-offset'] , $font['color'] , $font['file'], $text );
